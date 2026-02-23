@@ -22,7 +22,6 @@ class marco_calculadora2 extends JFrame
 {
 	public marco_calculadora2()
 	{
-		System.out.println("Calculadora 2");
 		Toolkit mipantalla= Toolkit.getDefaultToolkit();
 		Image mi_icono= mipantalla.getImage("src/graficos/java.png");		
 		setIconImage(mi_icono);
@@ -76,7 +75,7 @@ class lami_display2 extends JPanel
 		ponerBoton("0", inserta);
 		ponerBoton(".", inserta);
 		ponerBoton("+", accion);//suma
-		ponerBoton("igual", accion); //cambiamos el igual 
+		ponerBoton("=", accion); //cambiamos el igual 
 		//detalla de que aqui va una linea que es ultima_orden="=" por que el programa no funciona sin ella a mi si por elroden de las lienas de codigo 
 		add(milami3, BorderLayout.CENTER);//agregamos lamina 2
 		ultima_orden="=";
